@@ -1,0 +1,87 @@
+
+    
+
+    Timestamp:
+    2019-01-28T14:43:42.571Z
+    Developer set message:
+    Error occured when attempted to fetch unprocessed rows
+    Error contents:
+    RequestError: Connection lost - read ECONNRESET
+    Error code:
+    N/A
+    Error stack:
+    RequestError: Connection lost - read ECONNRESET
+    at handleError (/home/naeem/loyaltio-api/node_modules/mssql/lib/tedious.js:551:15)
+    at Connection.emit (events.js:187:15)
+    at Connection.socketError (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:1028:14)
+    at Socket.<anonymous> (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:878:18)
+    at Socket.emit (events.js:187:15)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  
+    
+
+    Timestamp:
+    2019-01-28T14:44:03.930Z
+    Developer set message:
+    Error occured when attempted to fetch unprocessed rows
+    Error contents:
+    RequestError: Timeout: Request failed to complete in 15000ms
+    Error code:
+    N/A
+    Error stack:
+    RequestError: Timeout: Request failed to complete in 15000ms
+    at Request.tds.Request.err [as userCallback] (/home/naeem/loyaltio-api/node_modules/mssql/lib/tedious.js:614:19)
+    at Request._this.callback (/home/naeem/loyaltio-api/node_modules/tedious/lib/request.js:61:27)
+    at Connection.message (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:1975:24)
+    at Connection.dispatchEvent (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:1012:38)
+    at MessageIO.<anonymous> (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:891:18)
+    at MessageIO.emit (events.js:182:13)
+    at Message.<anonymous> (/home/naeem/loyaltio-api/node_modules/tedious/lib/message-io.js:60:15)
+    at Message.emit (events.js:187:15)
+    at endReadableNT (/home/naeem/loyaltio-api/node_modules/readable-stream/lib/_stream_readable.js:1010:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  
+    
+
+    Timestamp:
+    2019-01-28T15:20:53.374Z
+    Developer set message:
+    Error occured when attempted to fetch unprocessed rows
+    Error contents:
+    RequestError: Connection lost - read ECONNRESET
+    Error code:
+    N/A
+    Error stack:
+    RequestError: Connection lost - read ECONNRESET
+    at handleError (/home/naeem/loyaltio-api/node_modules/mssql/lib/tedious.js:551:15)
+    at Connection.emit (events.js:187:15)
+    at Connection.socketError (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:1028:14)
+    at Socket.<anonymous> (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:878:18)
+    at Socket.emit (events.js:187:15)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  
+    
+
+    Timestamp:
+    2019-01-28T15:38:29.895Z
+    Developer set message:
+    Error occured when attempted to fetch unprocessed rows
+    Error contents:
+    RequestError: Connection lost - read EINVAL
+    Error code:
+    N/A
+    Error stack:
+    RequestError: Connection lost - read EINVAL
+    at handleError (/home/naeem/loyaltio-api/node_modules/mssql/lib/tedious.js:551:15)
+    at Connection.emit (events.js:187:15)
+    at Connection.socketError (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:1028:14)
+    at Socket.<anonymous> (/home/naeem/loyaltio-api/node_modules/tedious/lib/connection.js:878:18)
+    at Socket.emit (events.js:187:15)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  

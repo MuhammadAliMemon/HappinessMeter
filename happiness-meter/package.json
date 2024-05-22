@@ -1,0 +1,23 @@
+{
+  "name": "loyaltio-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://gitlab.com/mnaeem95/loyaltio-api.git",
+  "author": "Naeem",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.22.2",
+    "mssql": "^4.3.0",
+    "pm2": "file:pm2-3.2.9.tgz"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.4",
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build-linux": "./node_modules/pkg/lib-es5/bin.js -t latest-linux-x64 ./src/index.js",
+    "build-window": "./node_modules/pkg/lib-es5/bin.js -t latest-win-x64 ./src/index.js"
+  }
+}

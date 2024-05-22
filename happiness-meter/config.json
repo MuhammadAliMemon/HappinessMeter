@@ -1,0 +1,17 @@
+{
+    "batchSize": 20,
+    "pollingInterval": 30000,
+    "mssql": {
+        "user": "sa",
+        "password": "wavetec",
+        "server": "192.4.70.73\\sa",
+        "port": 1433,
+        "database": "",
+        "connectionTimeout": 60000,
+        "options": {
+            "encrypt": true
+        }
+    },
+    "loyalityioEndpointBaseURL": "https://hmstaging.loyaltiolabs.com",
+    "integrationToken": "goadAcbagwokmilNabniswavyephyoHecKobChuMeLadyalmyiensArrefnaHajL"
+}
